@@ -5,4 +5,4 @@
   - `rare_3utr_COSMIC/`
   - `rare_3utr_gnomAD/`
   
-- `prime_editing_TPM`
+- `./prime_editing_TPM/`
