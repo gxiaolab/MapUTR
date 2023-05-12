@@ -13,9 +13,14 @@ similar stepwise PCR protocol was also applied to the plasmid DNA to generate DN
 libraries. Both DNA and RNA sequencing libraries were pooled together to be sequenced on
 Hiseq3000 PE150 or Novaseq SP PE150 with 15% PhiX spike-in. For data analysis, we extracted
 UMIs from each read to remove PCR duplicates. The remaining reads were aligned to the
-designed reference sequences and normalized before calling functional variants using
-MPRAnalyze<sup>1</sup>.
+designed reference sequences and UMIs were counted using UMItools<sup>1</sup>. UMI counts were normalized before calling functional variants using
+MPRAnalyze<sup>2</sup>.
 
 Reference
-1. Ashuach, T. et al. MPRAnalyze: Statistical framework for massively parallel reporter
+
+1. Smith, T., Heger, A. &amp; Sudbery, I. UMI-tools: Modeling sequencing errors in Unique
+Molecular Identifiers to improve quantification accuracy. Genome Res. 27, 491–499
+(2017).
+
+2. Ashuach, T. et al. MPRAnalyze: Statistical framework for massively parallel reporter
 assays. Genome Biol. 20, 1–17 (2019).
