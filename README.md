@@ -1,10 +1,10 @@
-# mapUTR experiemntal design
+# MapUTR experiemntal design
 
 To test a variant of interest, both the reference and the alternative allele were designed into
 200nt oligos synthesized by Twist Biosciences. Each oligo contains a 164nt flanking sequence
 centered around the variant and adaptor sequences for cloning. The oligos were then cloned
 into the 3’ UTR region of the eGFP gene, whose expression is driven by the CAG promoter, in
-the plasmid reporters. We introduced 3ug plasmid libraries into 15M HEK293 cells via cell
+the plasmid reporters. We introduced 3ug plasmid libraries into 15M HEK293/HeLa cells via cell
 electroporation for each biological replicate, with a total number of three replicates. Total
 mRNA was isolated from the cells 24h after electroporation, reverse-transcribed into cDNA, and
 made into sequencing libraries through a stepwise PCR. Specifically, a unique molecular
