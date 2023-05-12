@@ -11,8 +11,8 @@ made into sequencing libraries through a stepwise PCR. Specifically, a unique mo
 identifier (UMI) was added to each cDNA transcript in the first round of PCR. The PCR products
 were further amplified to add Illumina sequencing adaptors in the second round of PCR. A
 similar stepwise PCR protocol was also applied to the plasmid DNA to generate DNA sequencing
-libraries. Both DNA and RNA sequencing libraries were pooled together to be sequenced on
-Hiseq3000 PE150 or Novaseq SP PE150 with 15% PhiX spike-in. For data analysis, we extracted
+libraries. Both DNA and RNA sequencing libraries were pooled together to be sequenced on Illumina
+HiSeq 3000 PE150 or NovaSeq 6000 PE150 with 15% PhiX spike-in. For data analysis, we extracted
 UMIs from each read to remove PCR duplicates. The remaining reads were aligned to the
 designed reference sequences and UMIs were counted using UMItools<sup>1</sup>. UMI counts were normalized before calling functional variants using
 MPRAnalyze<sup>2</sup>.
