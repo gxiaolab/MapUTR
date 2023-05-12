@@ -1,4 +1,6 @@
-## Folder structure
+## README.md
+
+### Folder structure
 
 - `./UMI_counts/`
   - `known_motif_activity/`
