@@ -1,2 +1,21 @@
 # mapUTR
-Custom scripts used for analyzing mapUTR data
+To test a variant of interest, both the reference and the alternative allele were designed into
+200nt oligos synthesized by Twist Biosciences. Each oligo contains a 164nt flanking sequence
+centered around the variant and adaptor sequences for cloning. The oligos were then cloned
+into the 3’ UTR region of the eGFP gene, whose expression is driven by the CAG promoter, in
+the plasmid reporters. We introduced 3ug plasmid libraries into 15M HEK293 cells via cell
+electroporation for each biological replicate, with a total number of three replicates. Total
+mRNA was isolated from the cells 24h after electroporation, reverse-transcribed into cDNA, and
+made into sequencing libraries through a stepwise PCR. Specifically, a unique molecular
+identifier (UMI) was added to each cDNA transcript in the first round of PCR. The PCR products
+were further amplified to add Illumina sequencing adaptors in the second round of PCR. A
+similar stepwise PCR protocol was also applied to the plasmid DNA to generate DNA sequencing
+libraries. Both DNA and RNA sequencing libraries were pooled together to be sequenced on
+Hiseq3000 PE150 or Novaseq SP PE150 with 15% PhiX spike-in. For data analysis, we extracted
+UMIs from each read to remove PCR duplicates. The remaining reads were aligned to the
+designed reference sequences and normalized before calling functional variants using
+MPRAnalyze^1.
+
+Reference
+1. Ashuach, T. et al. MPRAnalyze: Statistical framework for massively parallel reporter
+assays. Genome Biol. 20, 1–17 (2019).
