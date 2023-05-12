@@ -1,4 +1,5 @@
-# mapUTR
+# mapUTR experiemntal design
+
 To test a variant of interest, both the reference and the alternative allele were designed into
 200nt oligos synthesized by Twist Biosciences. Each oligo contains a 164nt flanking sequence
 centered around the variant and adaptor sequences for cloning. The oligos were then cloned
@@ -15,6 +16,7 @@ Hiseq3000 PE150 or Novaseq SP PE150 with 15% PhiX spike-in. For data analysis, w
 UMIs from each read to remove PCR duplicates. The remaining reads were aligned to the
 designed reference sequences and UMIs were counted using UMItools<sup>1</sup>. UMI counts were normalized before calling functional variants using
 MPRAnalyze<sup>2</sup>.
+
 
 Reference
 
