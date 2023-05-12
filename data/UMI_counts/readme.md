@@ -1,0 +1,1 @@
+In the folders above, there are UMI counts for both reference and alternative alleles of each testable varaint. The files are names in this format CXSpYMZ, where CX identifies the chip, SpYidentifies the subpool of variants cloned together and MZ identifies the molecule and replicate. For example, C1Sp2D3 refers to Chip1 - Subpool2 - DNA Rep 3
