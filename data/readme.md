@@ -1,4 +1,4 @@
-Folder structure
+## Folder structure
 
 - UMI_counts
   - known_motif_activity
