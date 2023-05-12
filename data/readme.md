@@ -1,10 +1,5 @@
 ## README.md
 
-### Folder structure
+`UMI_counts` contains processed data for analyzing known motifs (), rare 3' UTR variants from gnomAD and rare 3' UTR variants in cancer driver genes (COSMIC)
 
-- `./UMI_counts/`
-  - `known_motif_activity/`
-  - `rare_3utr_COSMIC/`
-  - `rare_3utr_gnomAD/`
-  
-- `./prime_editing_TPM/`
+`prime_editing_TPM` contains calculated TPM values for prime editing experiments
