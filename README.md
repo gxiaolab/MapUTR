@@ -14,7 +14,7 @@ libraries. Both DNA and RNA sequencing libraries were pooled together to be sequ
 Hiseq3000 PE150 or Novaseq SP PE150 with 15% PhiX spike-in. For data analysis, we extracted
 UMIs from each read to remove PCR duplicates. The remaining reads were aligned to the
 designed reference sequences and normalized before calling functional variants using
-MPRAnalyze^1.
+MPRAnalyze<sup>1</sup>.
 
 Reference
 1. Ashuach, T. et al. MPRAnalyze: Statistical framework for massively parallel reporter
