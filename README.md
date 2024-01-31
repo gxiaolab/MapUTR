@@ -17,6 +17,9 @@ UMIs from each read to remove PCR duplicates. The remaining reads were aligned t
 designed reference sequences and UMIs were counted using UMItools<sup>1</sup>. UMI counts were normalized before calling functional variants using
 MPRAnalyze<sup>2</sup>.
 
+[![DOI](https://zenodo.org/badge/639880970.svg)](https://zenodo.org/doi/10.5281/zenodo.10601708)
+
+
 
 Reference
 
@@ -28,4 +31,3 @@ Molecular Identifiers to improve quantification accuracy. Genome Res. 27, 491–
 assays. Genome Biol. 20, 1–17 (2019).
 
 
-[![DOI](https://zenodo.org/badge/639880970.svg)](https://zenodo.org/doi/10.5281/zenodo.10601708)
