@@ -26,3 +26,6 @@ Molecular Identifiers to improve quantification accuracy. Genome Res. 27, 491–
 
 2. Ashuach, T. et al. MPRAnalyze: Statistical framework for massively parallel reporter
 assays. Genome Biol. 20, 1–17 (2019).
+
+
+[![DOI](https://zenodo.org/badge/639880970.svg)](https://zenodo.org/doi/10.5281/zenodo.10601708)
